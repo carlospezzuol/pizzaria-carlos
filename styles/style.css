@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+.div-quarta {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.botao-corpo:hover {
+    transform: scale(1.1);
+    color: black;
+    
+}
+
+.div-sexta {
+    margin-top: 5px;
+}
+
+
+.botao-corpo {
+    background-color: red;
+    padding: 20px 60px;
+    border-radius: 5px;
+    color: var(--cor-frase-cabecalho);
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    
+}
+
+.titulo-primario {
+    font-family: 'Mulish', sans-serif;;
+    font-weight: 800;
+    font-size: 25px;
+    color: blue;
+    padding-top: 0%;
+    
+}
+
+.titulo-secundario {
+    margin-left: 385px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: blue;
+    
+}
+
+.paragrafo {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: 	#696969;
+    
+}
+
+.div-quinta {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.imagens-banner {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.nav-primaria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px 5px;
+    margin-bottom: 5px;
+}
+
+.banner-sec {
+    margin-top: 0%;
+    margin-bottom: 35px;
+}
+
+.rodape {
+    background-color: #D3D3D3;
+
+    
+    
+}
+
+.ul-rodape {
+    display: flex;
+    margin-left: 200px;
+    gap: 25px;
+}
+
+.item-lista {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: small;
+    margin-top: 30px;
+    font-weight:bold;
+}
+
+.imagem-icone:hover {
+    color: red;
+}
+
+.imagem-icone {
+    width: 140px;
+    margin-left: 200px;
+    margin-top: 30px;
+
+}
+
+.ul-icone {
+    display: flex;
+    align-items: center;
+}
+
+.coca-icon{
+    margin-left: 35px;
+    height: 105;
+    width: 100px;
+}
+
+.paragrafo-rodape {
+    display:flex ;
+}
+
+.div-p-rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 200px;
+    padding-bottom: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold ;
+    font-size: .875rem;
+}
+
+.item-lista:hover {
+    color: white;
+    cursor: pointer;
+}
+

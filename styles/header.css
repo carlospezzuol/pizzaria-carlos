@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+:root {
+    --cor-frase-cabecalho: white;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: blue;
+}
+
+.div-primaria {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.imagem-logo {
+    width: 84px;
+    height: 94px;
+}
+
+.botao-primaria  {
+    color: var(--cor-frase-cabecalho);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.botao-primaria:hover {
+    background: #191970;
+    padding: 30px 5px;
+}
+
+.botao:hover {
+    background: #191970;
+    padding: 30px 5px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+}
+
+.botao-ultimo {
+    margin-right: 50px;
+
+}
+
+.span-primario {
+    color: var(--cor-frase-cabecalho);
+    font-family:  'Montserrat', sans-serif;
+}
+
+.div-terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-carrinho {
+    margin-left: 14px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.corpo {
+    
+    background-color: #00FFFF;
+}
+
+.imagem-logo-tres {
+    width: 130px;
+}
